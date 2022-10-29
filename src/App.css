@@ -1,0 +1,59 @@
+.App {
+  text-align: center;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #eb6564;
+  width: 60%;
+  height: 100%;
+  color: white;
+}
+
+.airbnb-logo {
+  width: 3.5rem;
+}
+
+h1 {
+  font-size: 4.5rem;
+}
+
+p {
+  font-size: 2rem;
+}
+
+@media screen and (max-width: 480px) {
+  .App-header {
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 600px) {
+  .App-header {
+    width: 95%;
+  }
+
+  h1 {
+    font-size: 3.2rem;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 1080px) {
+  .App-header {
+    width: 80%;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+  }
+}
